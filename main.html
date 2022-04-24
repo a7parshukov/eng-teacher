@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aleksandr Parshukov">
+    <meta name="description" content="Сайт школы английского языка - уроки, грамматика, лексика">
+    <!-- open graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Школа Английского Языка">
+    <meta property="og:description" content="Школа Английского Языка - обучаем правилам английского. Заходите на наш сайт">
+    <meta property="og:image" content="">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+    <!-- /open graph -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon/icons8-великобритания-96.png">
+    <title>Школа английского языка</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__name">
+                Школа английского
+            </div>
+            <div class="header__nav">
+                <nav>
+                    <ul>
+                        <li><a href="main.html" class="header__nav_active">Главная</a></li>
+                        <li><a href="gramma.html">Грамматика</a></li>
+                        <li><a href="vocabulary.html">Лексика</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="row main__row_blue main__row-name">
+            <div class="main__logo col col-6">
+                <img src="img/dictionary.png" alt="Картинка словаря">
+            </div>
+            <div class="main__slogan col col-6 col-sm-12">
+                <h1>Школа Английского языка</h1>
+                <p><i class="main__slogan-text">Мы научим тебя правилам английского</i></p>
+            </div>
+        </div>
+        <div class="row main__row_white main__row-card">
+            <section class="main__card col col-4 col-sm-12">
+                <h2>Для начинающих</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit deleniti repellendus provident
+                    voluptate quas, harum sed numquam, temporibus, officiis vel animi quos nihil consectetur non quasi
+                    hic aspernatur sequi! Similique.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit deleniti repellendus provident
+                    voluptate quas, harum sed numquam, temporibus, officiis vel animi quos nihil consectetur non quasi
+                    hic aspernatur sequi! Similique.</p>
+            </section>
+            <section class="main__card col col-4 col-sm-12">
+                <h2>Для продолжающих</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit deleniti repellendus provident
+                    voluptate quas, harum sed numquam, temporibus, officiis vel animi quos nihil consectetur non quasi
+                    hic aspernatur sequi! Similique.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit deleniti repellendus provident
+                    voluptate quas, harum sed numquam, temporibus, officiis vel animi quos nihil consectetur non quasi
+                    hic aspernatur sequi! Similique.</p>
+            </section>
+            <section class="main__card col col-4 col-sm-12">
+                <h2>Для продвинутых</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit deleniti repellendus provident
+                    voluptate quas, harum sed numquam, temporibus, officiis vel animi quos nihil consectetur non quasi
+                    hic aspernatur sequi! Similique.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit deleniti repellendus provident
+                    voluptate quas, harum sed numquam, temporibus, officiis vel animi quos nihil consectetur non quasi
+                    hic aspernatur sequi! Similique.</p>
+            </section>
+        </div>
+        <div class="row main__row_red main__row-form">
+            <div class="main__form-title">Заполни анкету</div>
+            <form action="#" method="post" class="main__form">
+                <div class="form__row">
+                    <div class="form__cell form__cell_right">
+                        <label for="form__name">Твоё имя: </label>
+                    </div>
+                    <div class="form__cell form__cell_left">
+                        <input type="text" name="name" id="form__name" required>
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__cell form__cell_right">
+                        <label for="form__age">Сколько тебе лет: </label>
+                    </div>
+                    <div class="form__cell form__cell_left">
+                        <input type="text" name="age" id="form__age" required>
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__cell form__cell_right">
+                        <span>Пол:</span>
+                    </div>
+                    <div class="form__cell form__cell_left">
+                        <input type="radio" name="sex" id="form__sex_man" value="man"><label
+                            for="form__sex_man">Мужской</label>
+                        <input type="radio" name="sex" id="form__sex_woman" value="цщman"><label
+                            for="form__sex_woman">Женский</label>
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__cell form__cell_right">
+                        <label for="form__sex">Загрузить фото: </label>
+                    </div>
+                    <div class="form__cell form__cell_left">
+                        <input type="file" name="photo" id="form__photo">
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__cell form__cell_right">
+                        <input type="submit" name="send" class="form__button">
+                    </div>
+                    <div class="form__cell form__cell_left">
+                        <input type="reset" name="reset" class="form__button">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__contact">
+                <p>Связаться с нами</p>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-viber"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer__name">
+                <p>ООО "Название"</p>
+                <a href="mailto:mail@mail.ru">mail@mail.ru</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer__date">
+                &copy; 2022
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

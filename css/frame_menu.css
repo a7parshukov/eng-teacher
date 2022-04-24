@@ -1,0 +1,49 @@
+@import url("media_frame.css");
+
+@font-face {
+    font-family: "Mulish";
+    src: url("../fonts/Mulish/static/Mulish-Regular.ttf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html,
+body {
+    font-size: 16px;
+    height: 100%;
+    background: #001F7E;
+}
+
+.menu {
+    color: #fff;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+
+ol ol {
+    padding-left: 1rem;
+}
+
+ol li {
+    padding-top: 0.5rem;
+}
+
+li>a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li>a:hover {
+    color: #D00C27;
+}

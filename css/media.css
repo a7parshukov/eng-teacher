@@ -1,0 +1,123 @@
+@media screen and (max-width: 480px) {
+    html {
+        background: none !important;
+        width: 100vw;
+    }
+
+    html body {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .main__row-name .col-sm-12,
+    .main__row-card .col-sm-12 {
+        width: 100%;
+    }
+
+    .header .header__name {
+        position: static;
+        transform: none;
+        font-size: 1.5rem;
+        float: none;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .header .header__nav {
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+
+    a[href="gramma.html"] {
+        display: none;
+    }
+
+    .main__logo {
+        display: none;
+    }
+
+    .main .main__row-name {
+        height: 10rem;
+    }
+
+    .main__row-card .main__card {
+        background: #fff;
+    }
+
+    .main__form .form__cell {
+        padding: 5px 5px;
+    }
+
+    .footer .footer__contact {
+        float: none;
+        margin: 0;
+    }
+
+    .footer .footer__name {
+        float: none;
+        margin: 0;
+        padding-top: 1rem;
+    }
+
+    .task .task__card {
+        float: none;
+        width: 100%;
+    }
+
+    .task .task__card .card .card_face,
+    .task .task__card .card .card_back {
+        margin: 0 50px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1199px) {
+    html {
+        background: #000 !important;
+        width: 100vw;
+    }
+
+    html body {
+        width: 100vw;
+        margin: 0;
+        height: calc(100vh - 4rem);
+    }
+
+    body .main {
+        min-height: auto;
+    }
+
+    .header .header__name {
+        position: static;
+        transform: none;
+        font-size: 1.5rem;
+        float: none;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .header .header__nav {
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+
+    .task .task__card {
+        width: 50%;
+    }
+
+    .task .task__card .card .card_face,
+    .task .task__card .card .card_back {
+        margin: 0 50px;
+    }
+
+    body .footer {
+        margin-top: 0;
+    }
+
+    /* === frame === */
+    
+    h1 {
+        padding-left: 1rem;
+    }
+}
